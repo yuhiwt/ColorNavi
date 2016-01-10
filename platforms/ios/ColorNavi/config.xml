@@ -25,6 +25,9 @@
     <feature name="Geolocation">
         <param name="ios-package" value="CDVLocation" />
     </feature>
+    <feature name="Compass">
+        <param name="ios-package" value="CDVCompass" />
+    </feature>
     <name>ColorNavi</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.

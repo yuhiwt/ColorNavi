@@ -43,6 +43,7 @@
 		9E942F2243BE4A7AB171DFD8 /* CBPeripheral+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E08E886EDD194C4A9BA45C7B /* CBPeripheral+Extensions.m */; };
 		2924A8F899C4416FA551A321 /* BLECommandContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C0709BC4C14F939B47D213 /* BLECommandContext.m */; };
 		CAB1AB394097454683D3FAB9 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6DDA779104EF991FFA4D8 /* CDVLocation.m */; };
+		BBE7B62CAEA74DD9A059FB7F /* CDVCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAF890CDFB449C9BDBCE896 /* CDVCompass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +117,8 @@
 		4279F6CAE7AC478FBC76B4DB /* BLECommandContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BLECommandContext.h"; path = "cordova-plugin-ble-central/BLECentralPlugin/BLECommandContext.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		FCC6DDA779104EF991FFA4D8 /* CDVLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLocation.m"; path = "cordova-plugin-geolocation/CDVLocation.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		C386E5BE5F8847CCB11E7678 /* CDVLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocation.h"; path = "cordova-plugin-geolocation/CDVLocation.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1BAF890CDFB449C9BDBCE896 /* CDVCompass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVCompass.m"; path = "cordova-plugin-device-orientation/CDVCompass.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		3BFDA78B515E47B5A3FAF6BB /* CDVCompass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVCompass.h"; path = "cordova-plugin-device-orientation/CDVCompass.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +249,8 @@
 				4279F6CAE7AC478FBC76B4DB /* BLECommandContext.h */,
 				FCC6DDA779104EF991FFA4D8 /* CDVLocation.m */,
 				C386E5BE5F8847CCB11E7678 /* CDVLocation.h */,
+				1BAF890CDFB449C9BDBCE896 /* CDVCompass.m */,
+				3BFDA78B515E47B5A3FAF6BB /* CDVCompass.h */,
 			);
 			name = Plugins;
 			path = "ColorNavi/Plugins";
@@ -444,6 +449,7 @@
 				9E942F2243BE4A7AB171DFD8 /* CBPeripheral+Extensions.m in Sources */,
 				2924A8F899C4416FA551A321 /* BLECommandContext.m in Sources */,
 				CAB1AB394097454683D3FAB9 /* CDVLocation.m in Sources */,
+				BBE7B62CAEA74DD9A059FB7F /* CDVCompass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

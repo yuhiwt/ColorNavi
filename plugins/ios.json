@@ -33,6 +33,9 @@
         },
         "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "edp.sushi"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "edp.sushi"
         }
     },
     "dependent_plugins": {}
