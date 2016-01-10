@@ -1,0 +1,10 @@
+{
+    "cordova-plugin-geolocation": {
+        "source": {
+            "type": "local",
+            "path": "cordova-plugin-geolocation"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
