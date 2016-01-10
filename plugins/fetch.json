@@ -14,5 +14,11 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-plugin-ble-central": {
+        "source": {
+            "type": "local",
+            "path": "cordova-plugin-ble-central"
+        }
     }
 }

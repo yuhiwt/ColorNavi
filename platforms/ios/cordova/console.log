@@ -1,0 +1,45 @@
+2016-01-10 19:36:00.494 ColorNavi[36504:22373702] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/yuhei/Library/Developer/CoreSimulator/Devices/77C58C8C-CA13-4A3D-B4F9-444CA572023B/data/Containers/Data/Application/811BB44C-1C79-4B1E-A925-5CA83934449A/Library/Cookies/Cookies.binarycookies
+2016-01-10 19:36:01.153 ColorNavi[36504:22373702] Apache Cordova native platform version 3.9.2 is starting.
+2016-01-10 19:36:01.154 ColorNavi[36504:22373702] Multi-tasking -> Device: YES, App: YES
+2016-01-10 19:36:01.198 ColorNavi[36504:22373702] Unlimited access to network resources
+2016-01-10 19:36:01.216 ColorNavi[36504:22373702] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2016-01-10 19:36:01.639 ColorNavi[36504:22373702] Cordova BLE Central Plugin
+2016-01-10 19:36:01.639 ColorNavi[36504:22373702] (c)2014-2015 Don Coleman
+2016-01-10 19:36:01.644 ColorNavi[36504:22373702] [CDVTimer][ble] 4.342020ms
+2016-01-10 19:36:01.644 ColorNavi[36504:22373702] [CDVTimer][TotalPluginStartup] 4.585981ms
+2016-01-10 19:36:02.009 ColorNavi[36504:22373702] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2016-01-10 19:36:02.010 ColorNavi[36504:22373702] =============================================================
+2016-01-10 19:36:02.010 ColorNavi[36504:22373702] WARNING: This hardware does not support Bluetooth Low Energy.
+2016-01-10 19:36:02.010 ColorNavi[36504:22373702] =============================================================
+2016-01-10 19:36:02.390 ColorNavi[36504:22373702] Resetting plugins due to page load.
+2016-01-10 19:36:03.227 ColorNavi[36504:22373702] Finished load of: file:///Users/yuhei/Library/Developer/CoreSimulator/Devices/77C58C8C-CA13-4A3D-B4F9-444CA572023B/data/Containers/Bundle/Application/4B64C7C4-0EFF-4CD9-9015-75B178E6D596/ColorNavi.app/www/index.html
+2016-01-10 19:43:36.788 ColorNavi[36904:22378357] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/yuhei/Library/Developer/CoreSimulator/Devices/77C58C8C-CA13-4A3D-B4F9-444CA572023B/data/Containers/Data/Application/243BAFA5-8F42-4076-9051-A091F8B732C5/Library/Cookies/Cookies.binarycookies
+2016-01-10 19:43:37.054 ColorNavi[36904:22378357] Apache Cordova native platform version 3.9.2 is starting.
+2016-01-10 19:43:37.054 ColorNavi[36904:22378357] Multi-tasking -> Device: YES, App: YES
+2016-01-10 19:43:37.056 ColorNavi[36904:22378357] Unlimited access to network resources
+2016-01-10 19:43:37.059 ColorNavi[36904:22378357] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2016-01-10 19:43:37.140 ColorNavi[36904:22378357] Cordova BLE Central Plugin
+2016-01-10 19:43:37.140 ColorNavi[36904:22378357] (c)2014-2015 Don Coleman
+2016-01-10 19:43:37.144 ColorNavi[36904:22378357] [CDVTimer][ble] 3.836036ms
+2016-01-10 19:43:37.144 ColorNavi[36904:22378357] [CDVTimer][TotalPluginStartup] 4.004002ms
+2016-01-10 19:43:37.188 ColorNavi[36904:22378357] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2016-01-10 19:43:37.188 ColorNavi[36904:22378357] =============================================================
+2016-01-10 19:43:37.188 ColorNavi[36904:22378357] WARNING: This hardware does not support Bluetooth Low Energy.
+2016-01-10 19:43:37.188 ColorNavi[36904:22378357] =============================================================
+2016-01-10 19:43:37.285 ColorNavi[36904:22378357] Resetting plugins due to page load.
+2016-01-10 19:43:37.482 ColorNavi[36904:22378357] Finished load of: file:///Users/yuhei/Library/Developer/CoreSimulator/Devices/77C58C8C-CA13-4A3D-B4F9-444CA572023B/data/Containers/Bundle/Application/3D9ABAD2-20FB-4D95-AD0C-D33B174B922B/ColorNavi.app/www/index.html
+2016-01-10 19:47:11.134 ColorNavi[36904:22378367] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
