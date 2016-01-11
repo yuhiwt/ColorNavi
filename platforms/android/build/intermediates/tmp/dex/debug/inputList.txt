@@ -1,0 +1,2 @@
+/Users/yuhei/colornavi/platforms/android/build/intermediates/classes/debug
+/Users/yuhei/colornavi/platforms/android/build/intermediates/pre-dexed/debug/classes-75fb095e43e0d4c506d1486df00b0374a06f3bf6.jar

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/yuhei/colornavi/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="23338c05422b20814e886d4b86fa3774a0cfaca9">
+        <dex dex="/Users/yuhei/colornavi/platforms/android/build/intermediates/pre-dexed/debug/classes-75fb095e43e0d4c506d1486df00b0374a06f3bf6.jar" />
+    </item>
+
+</items>
