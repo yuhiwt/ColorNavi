@@ -21,6 +21,68 @@ var app = {
     initialize: function() {
         this.bindEvents();
     },
+    //------------------------
+    // Scan結果 記録用
+    //------------------------
+    log: function(str) {
+            $("#log").append(str + "<br />");
+            $("#log").scrollTop($("#log")[0].scrollHeight);
+    },
+    //------------------------
+    // Scan実行用
+    //------------------------
+    onScan: function() {
+            app.log(">> scan");
+            var scanTime=3000;
+            ble.startScan([], function(device)
+            {
+                console.log("scan success")
+                app.log("DEVICE: " + JSON.stringify(device));
+            }, function(reason)
+            {
+                console.log("scan failure");
+                app.log("ERROR: " + reason);
+            });
+            setTimeout( function(){
+                ble.stopScan(
+                    function() { console.log("Scan complete"); },
+                    function() { console.log("stopScan failed"); }
+                );
+                app.log("<< scan");
+            }, scanTime);
+            ble.showBluetoothSettings(function(e){
+                app.log(e);
+            }, function(e){
+                app.log(e);
+            });
+
+    },
+    //------------------------
+    // connectボタン実行用
+    // device_id: UUID or MAC address of the peripheral
+    //------------------------
+    onConnect: function(device_id){
+        ble.connect(device_id, function(device)
+        {
+            console.log(connect_success);
+        }, function(reason){
+            console.log(connect_failure);
+        });
+    },
+    onDisconnect: function(device_id){
+        ble.disconnect(device_id, function(device)
+        {
+            console.log(disconnect_success);
+        }, function(reason){
+            console.log(disconnect_failure);
+        });
+    },
+    sendData: function(){
+        var data = new Array();
+        data[0] = "220a";
+        ble.write(device_id, SERVICE, CHARACTERISTIC, data.buffer, success, failure);
+
+    },
     // Bind Event Listeners
     //
     // Bind any events that are required on startup. Common events are:
@@ -34,7 +96,10 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        alert("テスト");
+        $('#scan').on('click', function()
+        {
+            app.onScan();
+        });
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

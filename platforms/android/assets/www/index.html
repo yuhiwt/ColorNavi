@@ -27,19 +27,25 @@
         <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
         <script type="text/javascript" charset="utf-8" src="js/jquery-2.2.0.min.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
         <meta name="msapplication-tap-highlight" content="no" />
         <title>Color Navi</title>
     </head>
     <body>
-        <div class="app">
-            <h1>Color Navi</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+        <div style="width:100%;height:667px" id="map_canvas">
+            <div class="app">
+                <div id="deviceready" class="blink">
+                    <p class="event listening">Connecting to Device</p>
+                    <p class="event received">Device is Ready</p>
+                </div>
+    
+                <button id="button">Full Screen</button>
+                <button id="scan" type="button">BLE-Scan</button>
+                <div id="log"></div>
+    
             </div>
         </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
         </script>

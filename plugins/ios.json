@@ -15,7 +15,18 @@
         },
         "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "edp.sushi"
+        },
+        "plugin.google.maps": {
+            "API_KEY_FOR_IOS": "AIzaSyCfIzQosyLxC_RR5TCAb3ROzv8T6uvCsug",
+            "PACKAGE_NAME": "edp.sushi"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "edp.sushi"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "com.googlemaps.ios": {
+            "PACKAGE_NAME": "edp.sushi"
+        }
+    }
 }

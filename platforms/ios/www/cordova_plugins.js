@@ -63,6 +63,30 @@ module.exports = [
         "clobbers": [
             "navigator.geolocation"
         ]
+    },
+    {
+        "file": "plugins/plugin.google.maps/www/googlemaps-cdv-plugin.js",
+        "id": "plugin.google.maps.phonegap-googlemaps-plugin",
+        "pluginId": "plugin.google.maps",
+        "clobbers": [
+            "plugin.google.maps"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-console/www/console-via-logger.js",
+        "id": "cordova-plugin-console.console",
+        "pluginId": "cordova-plugin-console",
+        "clobbers": [
+            "console"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-console/www/logger.js",
+        "id": "cordova-plugin-console.logger",
+        "pluginId": "cordova-plugin-console",
+        "clobbers": [
+            "cordova.logger"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -70,7 +94,10 @@ module.exports.metadata =
 {
     "cordova-plugin-ble-central": "1.0.3",
     "cordova-plugin-device-orientation": "1.0.2",
-    "cordova-plugin-geolocation": "2.0.1-dev"
+    "cordova-plugin-geolocation": "2.0.1-dev",
+    "com.googlemaps.ios": "1.11.1",
+    "plugin.google.maps": "1.3.9",
+    "cordova-plugin-console": "1.0.2"
 }
 // BOTTOM OF METADATA
 });
