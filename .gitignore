@@ -1,0 +1,8 @@
+# Added by gemignore. Snippet 'Global/OSX'
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# GoogleMaps SDK
+plugins/com.googlemaps.ios
+platforms/ios/ColorNavi/Plugins/com.googlemaps.ios
