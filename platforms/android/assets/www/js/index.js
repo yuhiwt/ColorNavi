@@ -97,11 +97,11 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-/*        $('#scan').on('click', function()
+        $('#scan').on('click', function()
         {
             app.onScan();
         });
-*/
+
         // Map 
         console.log(app.map);
         var div = document.getElementById("map_canvas");
@@ -139,7 +139,7 @@ var app = {
         app.onMapLongClicked();
 
         // BLE
-        app.map.addEventListener(plugin.google.maps.event.MAP_READY, app.onScanReady);
+        //app.map.addEventListener(plugin.google.maps.event.MAP_READY, app.onScanReady);
 
     },
     onMapReady: function(){
@@ -151,7 +151,7 @@ var app = {
         console.log("mapBtnClicked");
         app.map.showDialog();
     },
-    onScanReady: function(){
+/*    onScanReady: function(){
         var button = document.getElementById("scan");
         button.addEventListener("click", app.onScanBtnClicked, false);
 
@@ -159,7 +159,7 @@ var app = {
     onScanBtnClicked: function(){
         console.log("scanBtnClicked");
         app.onScan();
-    },
+    },*/
     onMapLongClicked: function(){
         console.log("mapLongTap")
         var evtName = plugin.google.maps.event.MAP_LONG_CLICK;

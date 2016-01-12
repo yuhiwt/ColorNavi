@@ -17,6 +17,7 @@
  * under the License.
  */
 var app = {
+    map: null,
     // Application Constructor
     initialize: function() {
         this.bindEvents();
@@ -100,6 +101,73 @@ var app = {
         {
             app.onScan();
         });
+
+        // Map 
+        console.log(app.map);
+        var div = document.getElementById("map_canvas");
+        console.log(div);
+        // Initialize the map view
+        var latLon = new plugin.google.maps.LatLng(41.796875,140.757007);
+        app.map = plugin.google.maps.Map.getMap(div,
+        {
+            'backgroundColor': 'white',
+            'mapType': plugin.google.maps.MapTypeId.ROADMAP,
+            'controls': {
+                'compass': true,
+                'myLocationButton': true,
+                'indoorPicker': true,
+                'zoom': true
+            },
+            'gestures': {
+                'scroll': true,
+                'tilt': true,
+                'rotate': true,
+                'zoom': true
+            },
+            'camera': {
+                'latLng': latLon,
+                'tilt': 10,
+                'zoom': 15,
+                'bearing': 0
+            }
+        });
+        //app.map.setDiv(div);
+        console.log(app.map);
+        // Wait until the map is ready status.
+        app.map.addEventListener(plugin.google.maps.event.MAP_READY, app.onMapReady);
+
+        app.onMapLongClicked();
+
+        // BLE
+        //app.map.addEventListener(plugin.google.maps.event.MAP_READY, app.onScanReady);
+
+    },
+    onMapReady: function(){
+        var button = document.getElementById("map-button");
+        console.log("onMapReady");
+        button.addEventListener("click", app.onMapBtnClicked, false);
+    },
+    onMapBtnClicked: function(){
+        console.log("mapBtnClicked");
+        app.map.showDialog();
+    },
+/*    onScanReady: function(){
+        var button = document.getElementById("scan");
+        button.addEventListener("click", app.onScanBtnClicked, false);
+
+    },
+    onScanBtnClicked: function(){
+        console.log("scanBtnClicked");
+        app.onScan();
+    },*/
+    onMapLongClicked: function(){
+        console.log("mapLongTap")
+        var evtName = plugin.google.maps.event.MAP_LONG_CLICK;
+        app.map.on(evtName, function(latLng) {
+            alert("Map was long clicked.\n" +
+            latLng.toUrlValue());
+        });
+
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

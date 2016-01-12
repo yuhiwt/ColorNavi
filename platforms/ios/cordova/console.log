@@ -1126,3 +1126,58 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2016-01-12 14:27:47.233 ColorNavi[29668:23578852] onMapReady
 2016-01-12 14:27:48.782 ColorNavi[29668:23578852] mapBtnClicked
 2016-01-12 14:27:48.802 ColorNavi[29668:23578852] THREAD WARNING: ['GoogleMaps'] took '19.202881' ms. Plugin should use a background thread.
+2016-01-12 15:23:41.850 ColorNavi[37106:23622050] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/yuhei/Library/Developer/CoreSimulator/Devices/77C58C8C-CA13-4A3D-B4F9-444CA572023B/data/Containers/Data/Application/941F896F-D1ED-40D8-A906-6C155E3C7A9F/Library/Cookies/Cookies.binarycookies
+2016-01-12 15:23:42.440 ColorNavi[37106:23622050] Apache Cordova native platform version 3.9.2 is starting.
+2016-01-12 15:23:42.441 ColorNavi[37106:23622050] Multi-tasking -> Device: YES, App: YES
+2016-01-12 15:23:42.460 ColorNavi[37106:23622050] Unlimited access to network resources
+2016-01-12 15:23:42.475 ColorNavi[37106:23622050] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2016-01-12 15:23:42.738 ColorNavi[37106:23622050] Cordova BLE Central Plugin
+2016-01-12 15:23:42.738 ColorNavi[37106:23622050] (c)2014-2015 Don Coleman
+2016-01-12 15:23:42.745 ColorNavi[37106:23622050] [CDVTimer][ble] 7.493019ms
+2016-01-12 15:23:42.745 ColorNavi[37106:23622050] [CDVTimer][TotalPluginStartup] 7.697999ms
+2016-01-12 15:23:42.782 ColorNavi[37106:23622050] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2016-01-12 15:23:42.782 ColorNavi[37106:23622050] =============================================================
+2016-01-12 15:23:42.782 ColorNavi[37106:23622050] WARNING: This hardware does not support Bluetooth Low Energy.
+2016-01-12 15:23:42.783 ColorNavi[37106:23622050] =============================================================
+2016-01-12 15:23:42.994 ColorNavi[37106:23622050] Resetting plugins due to page load.
+2016-01-12 15:23:43.409 ColorNavi[37106:23622050] Finished load of: file:///Users/yuhei/Library/Developer/CoreSimulator/Devices/77C58C8C-CA13-4A3D-B4F9-444CA572023B/data/Containers/Bundle/Application/B411A19D-0980-4D19-B758-AA882D3AF2A3/ColorNavi.app/www/index.html
+2016-01-12 15:23:45.669 ColorNavi[37106:23622066] Terminating since there is no system app.
+2016-01-12 15:27:06.622 ColorNavi[37378:23624829] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/yuhei/Library/Developer/CoreSimulator/Devices/77C58C8C-CA13-4A3D-B4F9-444CA572023B/data/Containers/Data/Application/68439D6B-3049-43F9-B018-E7146374BA06/Library/Cookies/Cookies.binarycookies
+2016-01-12 15:27:06.762 ColorNavi[37378:23624829] Apache Cordova native platform version 3.9.2 is starting.
+2016-01-12 15:27:06.762 ColorNavi[37378:23624829] Multi-tasking -> Device: YES, App: YES
+2016-01-12 15:27:06.766 ColorNavi[37378:23624829] Unlimited access to network resources
+2016-01-12 15:27:06.770 ColorNavi[37378:23624829] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2016-01-12 15:27:06.861 ColorNavi[37378:23624829] Cordova BLE Central Plugin
+2016-01-12 15:27:06.861 ColorNavi[37378:23624829] (c)2014-2015 Don Coleman
+2016-01-12 15:27:06.864 ColorNavi[37378:23624829] [CDVTimer][ble] 3.040016ms
+2016-01-12 15:27:06.864 ColorNavi[37378:23624829] [CDVTimer][TotalPluginStartup] 3.304005ms
+2016-01-12 15:27:06.907 ColorNavi[37378:23624829] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2016-01-12 15:27:06.907 ColorNavi[37378:23624829] =============================================================
+2016-01-12 15:27:06.907 ColorNavi[37378:23624829] WARNING: This hardware does not support Bluetooth Low Energy.
+2016-01-12 15:27:06.907 ColorNavi[37378:23624829] =============================================================
+2016-01-12 15:27:06.954 ColorNavi[37378:23624829] Resetting plugins due to page load.
+2016-01-12 15:27:07.201 ColorNavi[37378:23624829] Finished load of: file:///Users/yuhei/Library/Developer/CoreSimulator/Devices/77C58C8C-CA13-4A3D-B4F9-444CA572023B/data/Containers/Bundle/Application/89914F3B-BA77-4374-A1F9-C742D8BB1032/ColorNavi.app/www/index.html
+2016-01-12 15:27:07.716 ColorNavi[37378:23624829] THREAD WARNING: ['GoogleMaps'] took '454.054932' ms. Plugin should use a background thread.
+2016-01-12 15:27:08.925 ColorNavi[37378:23624829] Received Event: deviceready
+2016-01-12 15:27:08.930 ColorNavi[37378:23624829] null
+2016-01-12 15:27:08.931 ColorNavi[37378:23624829] {"sizzle1452580027003":{"undefined":{"parentNode":[6.383273374987766,16,true]}}}
+2016-01-12 15:27:08.931 ColorNavi[37378:23624829] {}
+2016-01-12 15:27:08.931 ColorNavi[37378:23624829] mapLongTap
+2016-01-12 15:27:08.933 ColorNavi[37378:23624829] onMapReady
+2016-01-12 15:27:08.942 ColorNavi[37378:23624829] Google Maps SDK for iOS version: 1.11.21919.0
+2016-01-12 15:27:16.393 ColorNavi[37378:23624829] mapBtnClicked
+2016-01-12 15:27:22.088 ColorNavi[37378:23625058] Terminating since there is no system app.

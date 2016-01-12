@@ -23,6 +23,9 @@
     <feature name="Geolocation">
         <param name="ios-package" value="CDVLocation" />
     </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+    </feature>
     <feature name="GoogleMaps">
         <param name="ios-package" value="GoogleMaps" />
     </feature>
@@ -31,9 +34,6 @@
     </feature>
     <feature name="Geocoder">
         <param name="ios-package" value="Geocoder" />
-    </feature>
-    <feature name="Console">
-        <param name="ios-package" value="CDVLogger" />
     </feature>
     <name>ColorNavi</name>
     <description>

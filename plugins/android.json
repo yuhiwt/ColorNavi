@@ -41,11 +41,11 @@
         "cordova-plugin-device-orientation": {
             "PACKAGE_NAME": "edp.sushi"
         },
-        "plugin.google.maps": {
-            "API_KEY_FOR_ANDROID": "AIzaSyCXdpFkW7iAFaeEUrAFD_kdtRQCyD0UjNA",
+        "cordova-plugin-console": {
             "PACKAGE_NAME": "edp.sushi"
         },
-        "cordova-plugin-console": {
+        "plugin.google.maps": {
+            "API_KEY_FOR_ANDROID": "AIzaSyCXdpFkW7iAFaeEUrAFD_kdtRQCyD0UjNA",
             "PACKAGE_NAME": "edp.sushi"
         }
     },

@@ -31,10 +31,21 @@ ADDED from AndroidManifest.xml:3:5
 		ADDED from AndroidManifest.xml:3:132
 uses-permission#android.permission.INTERNET
 ADDED from AndroidManifest.xml:4:5
+MERGED from com.google.android.gms:play-services-maps:8.4.0:21:5
+MERGED from com.google.android.gms:play-services-maps:8.4.0:21:5
 	android:name
 		ADDED from AndroidManifest.xml:4:22
 application
 ADDED from AndroidManifest.xml:5:5
+MERGED from com.google.android.gms:play-services-maps:8.4.0:27:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:20:5
+MERGED from com.android.support:support-v4:23.0.0:22:5
+MERGED from com.google.android.gms:play-services-location:8.4.0:19:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:20:5
+MERGED from com.android.support:support-v4:23.0.0:22:5
+MERGED from com.google.android.gms:play-services-maps:8.4.0:27:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:20:5
+MERGED from com.android.support:support-v4:23.0.0:22:5
 	android:label
 		ADDED from AndroidManifest.xml:5:83
 	android:icon
@@ -63,26 +74,71 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:9:17
 	android:name
 		ADDED from AndroidManifest.xml:9:27
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from AndroidManifest.xml:12:9
+	android:name
+		ADDED from AndroidManifest.xml:12:20
+	android:value
+		ADDED from AndroidManifest.xml:12:70
+meta-data#com.google.android.gms.version
+ADDED from AndroidManifest.xml:13:9
+MERGED from com.google.android.gms:play-services-basement:8.4.0:21:9
+MERGED from com.google.android.gms:play-services-basement:8.4.0:21:9
+MERGED from com.google.android.gms:play-services-basement:8.4.0:21:9
+	android:name
+		ADDED from AndroidManifest.xml:13:20
+	android:value
+		ADDED from AndroidManifest.xml:13:66
 uses-sdk
-ADDED from AndroidManifest.xml:13:5
+ADDED from AndroidManifest.xml:15:5
+MERGED from com.google.android.gms:play-services-maps:8.4.0:26:5
+MERGED from com.google.android.gms:play-services-base:8.4.0:18:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:18:5
+MERGED from com.android.support:support-v4:23.0.0:20:5
+MERGED from com.google.android.gms:play-services-location:8.4.0:18:5
+MERGED from com.google.android.gms:play-services-base:8.4.0:18:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:18:5
+MERGED from com.android.support:support-v4:23.0.0:20:5
+MERGED from com.google.android.gms:play-services-maps:8.4.0:26:5
+MERGED from com.google.android.gms:play-services-base:8.4.0:18:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:18:5
+MERGED from com.android.support:support-v4:23.0.0:20:5
 MERGED from android:CordovaLib:unspecified:debug:25:5
 	android:targetSdkVersion
-		ADDED from AndroidManifest.xml:13:42
+		ADDED from AndroidManifest.xml:15:42
 	android:minSdkVersion
-		ADDED from AndroidManifest.xml:13:15
+		ADDED from AndroidManifest.xml:15:15
 uses-permission#android.permission.BLUETOOTH
-ADDED from AndroidManifest.xml:14:5
-	android:name
-		ADDED from AndroidManifest.xml:14:22
-uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from AndroidManifest.xml:15:5
-	android:name
-		ADDED from AndroidManifest.xml:15:22
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from AndroidManifest.xml:16:5
 	android:name
 		ADDED from AndroidManifest.xml:16:22
-uses-permission#android.permission.ACCESS_FINE_LOCATION
+uses-permission#android.permission.BLUETOOTH_ADMIN
 ADDED from AndroidManifest.xml:17:5
 	android:name
 		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:20:5
+MERGED from com.google.android.gms:play-services-maps:8.4.0:20:5
+MERGED from com.google.android.gms:play-services-maps:8.4.0:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from AndroidManifest.xml:21:5
+	android:name
+		ADDED from AndroidManifest.xml:21:22
+uses-feature#0x00020000
+ADDED from AndroidManifest.xml:22:5
+MERGED from com.google.android.gms:play-services-maps:8.4.0:22:5
+MERGED from com.google.android.gms:play-services-maps:8.4.0:22:5
+	android:required
+		ADDED from AndroidManifest.xml:22:52
+	android:glEsVersion
+		ADDED from AndroidManifest.xml:22:19
