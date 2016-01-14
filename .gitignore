@@ -1,0 +1,14 @@
+# Added by gemignore. Snippet 'Global/OSX'
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# GoogleMaps SDK
+plugins/com.googlemaps.ios
+platforms/ios/ColorNavi/Plugins/com.googlemaps.ios
+
+# build
+platforms/ios/cordova/console.log
+platforms/android/build
+platforms/android/.gradle
+platforms/android/build.gradle

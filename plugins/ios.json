@@ -4,36 +4,29 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {
-            "framework": {
-                "parents": {
-                    "CoreBluetooth.framework": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ]
-                }
-            },
-            "config.xml": {
-                "parents": {
-                    "/widget": [
-                        {
-                            "xml": "<feature name=\"BLE\"><param name=\"ios-package\" onload=\"true\" value=\"BLECentralPlugin\" /></feature>",
-                            "count": 1
-                        }
-                    ]
-                }
-            }
-        }
+        "files": {}
     },
     "installed_plugins": {
         "cordova-plugin-ble-central": {
             "PACKAGE_NAME": "edp.sushi"
         },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "edp.sushi"
+        },
         "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "edp.sushi"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "edp.sushi"
+        },
+        "plugin.google.maps": {
+            "API_KEY_FOR_IOS": "AIzaSyCfIzQosyLxC_RR5TCAb3ROzv8T6uvCsug",
             "PACKAGE_NAME": "edp.sushi"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "com.googlemaps.ios": {
+            "PACKAGE_NAME": "edp.sushi"
+        }
+    }
 }

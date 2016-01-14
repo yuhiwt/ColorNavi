@@ -6,5 +6,48 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-plugin-device-orientation": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device-orientation"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-ble-central": {
+        "source": {
+            "type": "local",
+            "path": "cordova-plugin-ble-central"
+        }
+    },
+    "cordova-plugin-console": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-console"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "plugin.google.maps": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-googlemaps"
+        },
+        "is_top_level": true,
+        "variables": {
+            "API_KEY_FOR_ANDROID": "AIzaSyCXdpFkW7iAFaeEUrAFD_kdtRQCyD0UjNA",
+            "API_KEY_FOR_IOS": "AIzaSyCfIzQosyLxC_RR5TCAb3ROzv8T6uvCsug"
+        }
+    },
+    "com.googlemaps.ios": {
+        "source": {
+            "type": "git",
+            "url": "https://bitbucket.org/nightstomp/cordova-plugin-googlemaps-sdk.git",
+            "subdir": ".",
+            "ref": "master"
+        },
+        "is_top_level": false,
+        "variables": {}
     }
 }

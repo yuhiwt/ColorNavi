@@ -1,0 +1,9 @@
+/Users/yuhei/colornavi/platforms/android/build/intermediates/classes/debug
+/Users/yuhei/colornavi/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-9879d3ab2e5cd9bef67b66bbe1074ccd922c0db9.jar
+/Users/yuhei/colornavi/platforms/android/build/intermediates/pre-dexed/debug/classes-35ea26f6b819542b25ec79ec9da80dd3da982346.jar
+/Users/yuhei/colornavi/platforms/android/build/intermediates/pre-dexed/debug/classes-75fb095e43e0d4c506d1486df00b0374a06f3bf6.jar
+/Users/yuhei/colornavi/platforms/android/build/intermediates/pre-dexed/debug/classes-ec60100f82c20c1b5772c50a6aa1d8b837c6d3c4.jar
+/Users/yuhei/colornavi/platforms/android/build/intermediates/pre-dexed/debug/classes-62ede5a2f8f2560ff1c3a73513f1bc58350b8ceb.jar
+/Users/yuhei/colornavi/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-93781adfc5733029e6f3254c3c468459d8c4c961.jar
+/Users/yuhei/colornavi/platforms/android/build/intermediates/pre-dexed/debug/classes-436b66ac1f5c1d3805477d5b08fb127ac0072961.jar
+/Users/yuhei/colornavi/platforms/android/build/intermediates/pre-dexed/debug/classes-eea5ac160aaeb36d62554e32b5f707f732e284fd.jar
