@@ -2,6 +2,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+.monaca
 
 # GoogleMaps SDK
 plugins/com.googlemaps.ios
@@ -9,6 +10,6 @@ platforms/ios/ColorNavi/Plugins/com.googlemaps.ios
 
 # build
 platforms/ios/cordova/console.log
-platforms/android/build
-platforms/android/.gradle
-platforms/android/build.gradle
+platforms/android/build/
+platforms/ios/cordova/console.log
+platforms/ios/www/css/index.css
